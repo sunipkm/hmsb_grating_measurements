@@ -6,7 +6,7 @@ import numpy as np
 from scipy.optimize import minimize_scalar, minimize, curve_fit
 import matplotlib.pyplot as plt
 # %%
-data = np.loadtxt('data/meas_1.txt', delimiter=',', dtype=float).T
+data = np.loadtxt('data/meas_1.csv', delimiter=',', dtype=float).T
 # %%
 proc = np.zeros((2, data.shape[-1]))
 proc[0] = data[0] + data[1] / 60

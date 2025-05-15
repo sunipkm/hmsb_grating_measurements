@@ -1,5 +1,6 @@
 # Lambda: 633 nm
-#Index,Ang_Deg,+Ang_Min,Ang_Deg,-Ang_Min
+# Order Separation: 1
+# Ang_Deg,+Ang_Min,Ang_Deg,-Ang_Min
 86,35,nan,nan
 88,0,nan,nan
 89,20,nan,nan
